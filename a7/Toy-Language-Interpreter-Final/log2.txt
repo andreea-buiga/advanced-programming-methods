@@ -1,0 +1,2979 @@
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(v1 = Ref(int))
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(v1 = Ref(int))
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(v1 = Ref(int))
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(cnt = int)
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+(new v1 1)
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (0, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+newSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 0
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+fork((acquire(cnt); (wH(v1 = rH(v1) * 10); (wH(v1 = rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+wH(v1 = rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 1
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:2
+ExeStack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(cnt)
+wH(v1 = rH(v1) * 10)
+wH(v1 = rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+SymTable: 
+cnt -> 1
+v1 -> (1, int)
+
+Out: 
+10
+
+FileTable: 
+
+Heap: 
+1 -> 10
+Semaphore table
+{1->1=[4];}

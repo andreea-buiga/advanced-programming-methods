@@ -1,0 +1,266 @@
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+(v = int)
+v=2
+fork((acquire(v); (print(1); release(v))))
+fork((acquire(v); (print(2); release(v))))
+fork((acquire(v); (print(3); release(v))))
+
+SymTable: 
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+v=2
+fork((acquire(v); (print(1); release(v))))
+fork((acquire(v); (print(2); release(v))))
+fork((acquire(v); (print(3); release(v))))
+
+SymTable: 
+v -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+v=2
+fork((acquire(v); (print(1); release(v))))
+fork((acquire(v); (print(2); release(v))))
+fork((acquire(v); (print(3); release(v))))
+
+SymTable: 
+v -> 0
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+fork((acquire(v); (print(1); release(v))))
+fork((acquire(v); (print(2); release(v))))
+fork((acquire(v); (print(3); release(v))))
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+fork((acquire(v); (print(1); release(v))))
+fork((acquire(v); (print(2); release(v))))
+fork((acquire(v); (print(3); release(v))))
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+fork((acquire(v); (print(2); release(v))))
+fork((acquire(v); (print(3); release(v))))
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(v)
+print(1)
+release(v)
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+fork((acquire(v); (print(2); release(v))))
+fork((acquire(v); (print(3); release(v))))
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+acquire(v)
+print(1)
+release(v)
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+fork((acquire(v); (print(3); release(v))))
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+print(1)
+release(v)
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:6
+ExeStack:
+acquire(v)
+print(2)
+release(v)
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:4
+ExeStack:
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:5
+ExeStack:
+print(1)
+release(v)
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:6
+ExeStack:
+acquire(v)
+print(2)
+release(v)
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}
+----------------------------------------------------------------------------
+Thread ID:7
+ExeStack:
+acquire(v)
+print(3)
+release(v)
+
+SymTable: 
+v -> 2
+
+Out: 
+
+FileTable: 
+
+Heap: 
+Semaphore table
+{}

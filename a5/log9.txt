@@ -1,0 +1,810 @@
+Thread number id: 1
+
+	• exeStack: int v
+		v = 4
+		(while((v>0))(print(v);v = v - 1))
+		print(v)
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: v = 4
+		(while((v>0))(print(v);v = v - 1))
+		print(v)
+		
+		int v
+	• heap: {
+	}
+	• symTable: {
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: v = 4
+		(while((v>0))(print(v);v = v - 1))
+		print(v)
+		
+		int v
+	• heap: {
+	}
+	• symTable: {
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: v = 4
+		(while((v>0))(print(v);v = v - 1))
+		print(v)
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: v = 4
+		(while((v>0))(print(v);v = v - 1))
+		print(v)
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: (while((v>0))(print(v);v = v - 1))
+		print(v)
+		v = 4
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: (while((v>0))(print(v);v = v - 1))
+		print(v)
+		v = 4
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: (while((v>0))(print(v);v = v - 1))
+		print(v)
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: (while((v>0))(print(v);v = v - 1))
+		print(v)
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))print(v)
+		v = v - 1
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))print(v)
+		v = v - 1
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+		4
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1
+	• heap: {
+	}
+	• symTable: {
+		v -> 4
+	}
+	• out: {
+		4
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 3
+	}
+	• out: {
+		4
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 3
+	}
+	• out: {
+		4
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))print(v)
+		v = v - 1
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 3
+	}
+	• out: {
+		4
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))print(v)
+		v = v - 1
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 3
+	}
+	• out: {
+		4
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 3
+	}
+	• out: {
+		4
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 3
+	}
+	• out: {
+		4
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1
+	• heap: {
+	}
+	• symTable: {
+		v -> 3
+	}
+	• out: {
+		4
+		3
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1
+	• heap: {
+	}
+	• symTable: {
+		v -> 3
+	}
+	• out: {
+		4
+		3
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 2
+	}
+	• out: {
+		4
+		3
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 2
+	}
+	• out: {
+		4
+		3
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))print(v)
+		v = v - 1
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 2
+	}
+	• out: {
+		4
+		3
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))print(v)
+		v = v - 1
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 2
+	}
+	• out: {
+		4
+		3
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 2
+	}
+	• out: {
+		4
+		3
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 2
+	}
+	• out: {
+		4
+		3
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1
+	• heap: {
+	}
+	• symTable: {
+		v -> 2
+	}
+	• out: {
+		4
+		3
+		2
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1
+	• heap: {
+	}
+	• symTable: {
+		v -> 2
+	}
+	• out: {
+		4
+		3
+		2
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 1
+	}
+	• out: {
+		4
+		3
+		2
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 1
+	}
+	• out: {
+		4
+		3
+		2
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))print(v)
+		v = v - 1
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 1
+	}
+	• out: {
+		4
+		3
+		2
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))print(v)
+		v = v - 1
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 1
+	}
+	• out: {
+		4
+		3
+		2
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 1
+	}
+	• out: {
+		4
+		3
+		2
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 1
+	}
+	• out: {
+		4
+		3
+		2
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1
+	• heap: {
+	}
+	• symTable: {
+		v -> 1
+	}
+	• out: {
+		4
+		3
+		2
+		1
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))v = v - 1
+	• heap: {
+	}
+	• symTable: {
+		v -> 1
+	}
+	• out: {
+		4
+		3
+		2
+		1
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+		4
+		3
+		2
+		1
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)(while((v>0))(print(v);v = v - 1))
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+		4
+		3
+		2
+		1
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+		4
+		3
+		2
+		1
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+		4
+		3
+		2
+		1
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: 
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+		4
+		3
+		2
+		1
+		0
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+

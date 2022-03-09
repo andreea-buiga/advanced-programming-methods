@@ -1,0 +1,25 @@
+.main-container {
+    -fx-alignment: center;
+    -fx-background-color: #121212;
+}
+
+.button {
+    -fx-alignment: center;
+    -fx-border-radius: 50px;
+    -fx-background-radius:50px;
+    -fx-padding: 25px;
+    -fx-width: 50px;
+    -fx-background-color: #370083;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 30px;
+}
+
+.container {
+    -fx-alignment: center;
+}
+
+.list {
+    -fx-background-color: #121212;
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+}

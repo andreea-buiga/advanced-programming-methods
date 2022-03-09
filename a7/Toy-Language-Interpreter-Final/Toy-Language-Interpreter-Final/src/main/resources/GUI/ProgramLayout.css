@@ -1,0 +1,14 @@
+.main-container {
+    -fx-background-color: #121212;
+    -fx-text-fill: #000000;
+}
+
+.font-color {
+    -fx-text-fill: #000000;
+}
+
+.button {
+    -fx-background-radius: 50px;
+    -fx-background-color: #370083;
+    -fx-text-fill: #FFFFFF;
+}

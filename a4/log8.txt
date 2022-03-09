@@ -1,0 +1,237 @@
+ProgramState {
+	• exeStack: Ref int v
+		new(v, 20)
+		Ref Ref int a
+		new(a, v)
+		new(v, 30)
+		print(rH(rH(a)))
+		
+		
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: new(v, 20)
+		Ref Ref int a
+		new(a, v)
+		new(v, 30)
+		print(rH(rH(a)))
+		
+		
+		
+		Ref int v
+	• heap: {
+	}
+	• symTable: {
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: new(v, 20)
+		Ref Ref int a
+		new(a, v)
+		new(v, 30)
+		print(rH(rH(a)))
+		
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> (0, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: Ref Ref int a
+		new(a, v)
+		new(v, 30)
+		print(rH(rH(a)))
+		
+		
+		new(v, 20)
+	• heap: {
+	}
+	• symTable: {
+		v -> (0, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: Ref Ref int a
+		new(a, v)
+		new(v, 30)
+		print(rH(rH(a)))
+		
+		
+		
+	• heap: {
+		1 -> 20
+	}
+	• symTable: {
+		v -> (1, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: new(a, v)
+		new(v, 30)
+		print(rH(rH(a)))
+		
+		Ref Ref int a
+	• heap: {
+		1 -> 20
+	}
+	• symTable: {
+		v -> (1, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: new(a, v)
+		new(v, 30)
+		print(rH(rH(a)))
+		
+		
+	• heap: {
+		1 -> 20
+	}
+	• symTable: {
+		a -> (0, Ref int)
+		v -> (1, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: new(v, 30)
+		print(rH(rH(a)))
+		new(a, v)
+	• heap: {
+		1 -> 20
+	}
+	• symTable: {
+		a -> (0, Ref int)
+		v -> (1, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: new(v, 30)
+		print(rH(rH(a)))
+		
+	• heap: {
+		1 -> 20
+		2 -> (1, int)
+	}
+	• symTable: {
+		a -> (2, Ref int)
+		v -> (1, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: print(rH(rH(a)))new(v, 30)
+	• heap: {
+		1 -> 20
+		2 -> (1, int)
+	}
+	• symTable: {
+		a -> (2, Ref int)
+		v -> (1, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: print(rH(rH(a)))
+	• heap: {
+		1 -> 20
+		2 -> (1, int)
+		3 -> 30
+	}
+	• symTable: {
+		a -> (2, Ref int)
+		v -> (3, int)
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+ProgramState {
+	• exeStack: 
+	• heap: {
+		1 -> 20
+		2 -> (1, int)
+		3 -> 30
+	}
+	• symTable: {
+		a -> (2, Ref int)
+		v -> (3, int)
+	}
+	• out: {
+		20
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+

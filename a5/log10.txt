@@ -1,0 +1,868 @@
+Thread number id: 1
+
+	• exeStack: int v
+		Ref int a
+		v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: Ref int a
+		v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		
+		int v
+	• heap: {
+	}
+	• symTable: {
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: Ref int a
+		v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		
+		int v
+	• heap: {
+	}
+	• symTable: {
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: Ref int a
+		v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: Ref int a
+		v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		Ref int a
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		Ref int a
+	• heap: {
+	}
+	• symTable: {
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		a -> (0, int)
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: v = 10
+		new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		a -> (0, int)
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		v = 10
+	• heap: {
+	}
+	• symTable: {
+		a -> (0, int)
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		v = 10
+	• heap: {
+	}
+	• symTable: {
+		a -> (0, int)
+		v -> 0
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		a -> (0, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: new(a, 22)
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+		
+	• heap: {
+	}
+	• symTable: {
+		a -> (0, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		new(a, 22)
+	• heap: {
+	}
+	• symTable: {
+		a -> (0, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		new(a, 22)
+	• heap: {
+	}
+	• symTable: {
+		a -> (0, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+		print(v)
+		print(rH(a))
+		
+		
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)
+		print(rH(a))
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)
+		print(rH(a))
+		fork((wH(a, 30);(v = 32;(print(v);print(rH(a))))))
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)
+		print(rH(a))
+		
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: wH(a, 30)
+		v = 32
+		print(v)
+		print(rH(a))
+		
+		
+		
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(v)
+		print(rH(a))
+		
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: wH(a, 30)
+		v = 32
+		print(v)
+		print(rH(a))
+		
+		
+		
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(rH(a))print(v)
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: v = 32
+		print(v)
+		print(rH(a))
+		
+		wH(a, 30)
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(rH(a))print(v)
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: v = 32
+		print(v)
+		print(rH(a))
+		
+		wH(a, 30)
+	• heap: {
+		1 -> 22
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(rH(a))
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+		10
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: v = 32
+		print(v)
+		print(rH(a))
+		
+		
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+		10
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: print(rH(a))
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+		10
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: v = 32
+		print(v)
+		print(rH(a))
+		
+		
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+		10
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 1
+
+	• exeStack: 
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+		10
+		30
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: print(v)
+		print(rH(a))
+		v = 32
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+		10
+		30
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: print(v)
+		print(rH(a))
+		v = 32
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 10
+	}
+	• out: {
+		10
+		30
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: print(v)
+		print(rH(a))
+		
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 32
+	}
+	• out: {
+		10
+		30
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: print(v)
+		print(rH(a))
+		
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 32
+	}
+	• out: {
+		10
+		30
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: print(rH(a))print(v)
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 32
+	}
+	• out: {
+		10
+		30
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: print(rH(a))print(v)
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 32
+	}
+	• out: {
+		10
+		30
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: print(rH(a))
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 32
+	}
+	• out: {
+		10
+		30
+		32
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: print(rH(a))
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 32
+	}
+	• out: {
+		10
+		30
+		32
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
+Thread number id: 10
+
+	• exeStack: 
+	• heap: {
+		1 -> 30
+	}
+	• symTable: {
+		a -> (1, int)
+		v -> 32
+	}
+	• out: {
+		10
+		30
+		32
+		30
+	}
+	• fileTable: {
+	}
+}
+-----------------------------------------------
+
